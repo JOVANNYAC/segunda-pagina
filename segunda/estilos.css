@@ -1,0 +1,90 @@
+.pagina {
+    background-image: url(https://www.65ymas.com/uploads/s1/43/03/39/pineapple-5108775-1920.jpeg);
+    background-size: 200px;
+    background-attachment: fixed;
+}
+
+.amarillo {
+    
+    width: 800px;
+    max-width: 100%;
+    border-radius: 15px;
+    margin: auto;
+    background-color: rgba(255, 255, 0, 0.534);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 17px;
+     height: auto;
+     box-sizing: border-box;
+     position: relative;
+    
+}   
+
+h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    margin: auto;    
+    width: 800px;
+    max-width: 100%;
+    text-align: center;   
+        }
+
+
+.titulo {
+         color: rgb(17, 17, 16);
+         font-family: sans-serif;
+         font-size: 33px;
+         margin: auto;
+         width: 800px;
+        max-width: 100%;
+    }           
+
+
+
+p {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.form-control {
+
+    height: 30px;
+    width: 650px;
+    border-radius: 8px;
+    max-width: 100%;
+    
+}
+
+.grupo-formulario label {
+    width: 650px;
+    padding: 15px;
+    max-width: 100%;
+}
+
+.grupo-formulario {
+     padding: 25px;
+}
+
+.boton-enviar {
+    width: 650px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(22, 211, 47);
+    max-width: 100%;
+}
+
+form label{
+    width: 70px;
+    font-weight: bold;
+    display:inline-block;
+    margin-left: 5px;
+}
+ 
+textarea {
+    width: 650px;
+    border-radius: 15px;
+    max-width: 100%;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Te gusta la piña?</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="pagina">
+    <div class="amarillo">
+    <header>
+       <h1>La Piña</h1>
+       <br>
+       <p class="titulo">Ananas comosus (ananá, ananás, matzatli o
+            piña) es una especie de la familia de las bromeliáceas, nativa 
+            de América del Sur. 
+    
+        </p>
+    </header>
+    <br><br>
+    <form>
+        <div class="grupo-formulario">
+            <label id="nombre-label" for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Escribe tu nombre" required>
+        </div>
+
+        <div class="grupo-formulario">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Escribe tu Email" required>
+        </div>
+
+        <div class="grupo-formulario">
+            <label id="año-nacimiento" for="año">Año de nacimiento
+                <span class="clue">(opcional)</span> 
+                 </label>
+            <input type="number" name="año-nacimiento" id="año" min="1970" max="2020" class="form-control" placeholder="selecione año">
+        </div>
+
+        <div class="grupo-formulario">
+            <p>
+                ¿Cual es tu  forma preferida de comer piña?
+            </p>
+            <select name="preferencia" id="favorita" class="form-control" required>
+            <option disabled selected value>seleccione su preferencia</option>
+            <option value="fresca">fresca en tajos</option>
+            <option value="jugo">jugo o licuado</option>
+            <option value="dulce">dulces o mermelada</option>
+            <option value="lata">en conservas</option>
+            <option value="no">ninguna</option>
+            <option value="otro">otro</option>
+           </select>
+        </div>
+
+        <div class="grupo-formulario">
+            <p>
+                ¿con que frecuencia consumes productos derivados de la piña?
+            </p>
+            <label> 
+                <input name="preferencia" value="diario" type="radio" checked class="input-radio" > a diario
+            </label>
+            <label> 
+                <input name="preferencia" value="mes" type="radio" class="input-radio" > algunas veces al mes
+            </label>
+            <label> 
+                <input name="preferencia" value="año" type="radio" class="input-radio" > algunas veces al año
+            </label>
+            <label> 
+                <input name="preferencia" value="no" type="radio" class="input-radio" >no me gusta
+            </label>
+        </div>  
+            <div class="grupo-formulario">
+                <p>Donde compras tus frutas</p>
+                <select id="donde-compras" name="donde compras" class="form-control" required>
+                    <option value="tienda">tienda de barrio</option>
+                    <option value="supermercado">supermercado</option>
+                    <option value="vendedor ambulante">vendedor ambulante</option>
+                    <option value="tienda de frutas">tienda de frutas</option>
+                    <option value="todas">en todas o mayoria de las anteriores</option>
+                </select>
+            </div>
+            <div class="grupo-formulario">
+                <p>
+                    seleciona tus frutas preferidas
+                    <span class="clue">(Marca todas las que te gustan)</span>
+                </p>    
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="piña" name="favoritas">piña
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="mango" name="favoritas">mango
+                    </label>
+                    <label>   
+                        <input type="checkbox" class="input-checkbox" value="naranja" name="favoritas">naranja
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="banano" name="favoritas">banano
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="fresa" name="favoritas">fresa
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="manzana" name="favoritas">manzana
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="uva" name="favoritas">uva
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="pera" name="favoritas">pera
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="guayaba" name="favoritas">guayaba
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="durazno" name="favoritas">durazno
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="granadilla" name="favoritas">granadilla
+                    </label>
+                    <label>
+                        <input type="checkbox" class="input-checkbox" value="papaya" name="favoritas">papaya
+                    </label>
+            </div>
+            <div class="grupo-formulario">
+                <p> cuentanos que otras frutas te gustan y como las consumes</p>
+                <textarea name="comentario" id="comentarios" class="imput-textarea" cols="30" rows="5" placeholder="escribe tu comentario aquí" >
+                </textarea>
+            </div>
+
+            <div class="grupo-formulario">
+                <button type="enviar" id="enviar" class="boton-enviar">
+                    Enviar
+                </button>
+            </div>
+            
+        </form>
+        </div>
+</body>
+</html>
